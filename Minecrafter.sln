@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Minecrafter", "Minecrafter\Minecrafter.vcproj", "{2F245E98-8FC4-4AC2-A0CC-F83C4C2A31F2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C8218ABB-C921-4E19-98C6-2ADDD866E479} = {C8218ABB-C921-4E19-98C6-2ADDD866E479}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3DIO", "..\..\Libraries\3DIO\3DIO\3DIO.vcproj", "{C8218ABB-C921-4E19-98C6-2ADDD866E479}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release_Condensed|Win32 = Release_Condensed|Win32
+		Release|Win32 = Release|Win32
+		ReleaseManaged|Win32 = ReleaseManaged|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F245E98-8FC4-4AC2-A0CC-F83C4C2A31F2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F245E98-8FC4-4AC2-A0CC-F83C4C2A31F2}.Debug|Win32.Build.0 = Debug|Win32
+		{2F245E98-8FC4-4AC2-A0CC-F83C4C2A31F2}.Release_Condensed|Win32.ActiveCfg = Release|Win32
+		{2F245E98-8FC4-4AC2-A0CC-F83C4C2A31F2}.Release_Condensed|Win32.Build.0 = Release|Win32
+		{2F245E98-8FC4-4AC2-A0CC-F83C4C2A31F2}.Release|Win32.ActiveCfg = Release|Win32
+		{2F245E98-8FC4-4AC2-A0CC-F83C4C2A31F2}.Release|Win32.Build.0 = Release|Win32
+		{2F245E98-8FC4-4AC2-A0CC-F83C4C2A31F2}.ReleaseManaged|Win32.ActiveCfg = Release|Win32
+		{2F245E98-8FC4-4AC2-A0CC-F83C4C2A31F2}.ReleaseManaged|Win32.Build.0 = Release|Win32
+		{C8218ABB-C921-4E19-98C6-2ADDD866E479}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C8218ABB-C921-4E19-98C6-2ADDD866E479}.Debug|Win32.Build.0 = Debug|Win32
+		{C8218ABB-C921-4E19-98C6-2ADDD866E479}.Release_Condensed|Win32.ActiveCfg = Release_Condensed|Win32
+		{C8218ABB-C921-4E19-98C6-2ADDD866E479}.Release_Condensed|Win32.Build.0 = Release_Condensed|Win32
+		{C8218ABB-C921-4E19-98C6-2ADDD866E479}.Release|Win32.ActiveCfg = Release|Win32
+		{C8218ABB-C921-4E19-98C6-2ADDD866E479}.Release|Win32.Build.0 = Release|Win32
+		{C8218ABB-C921-4E19-98C6-2ADDD866E479}.ReleaseManaged|Win32.ActiveCfg = ReleaseManaged|Win32
+		{C8218ABB-C921-4E19-98C6-2ADDD866E479}.ReleaseManaged|Win32.Build.0 = ReleaseManaged|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
